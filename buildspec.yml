@@ -8,4 +8,4 @@ phases:
       - echo "Packaging Lambda function..."
       - zip -r lambda_function.zip .
       - echo "Updating Lambda function in AWS..."
-      - aws lambda update-function-code --function-name ImageDetectorLambda --zip-file fileb://lambda_function.zip
+      - aws lambda update-function-code --function-name ImageProcessorLambda --zip-file fileb://lambda_function.zip
