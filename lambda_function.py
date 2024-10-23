@@ -17,7 +17,7 @@ def lambda_handler(event, context):
 
         return {
             'statusCode': 200,
-            'body': json.dumps('Image processed successfully. Build successful')
+            'body': json.dumps('Image processed successfully. ')
         }
 
     except KeyError as e:
